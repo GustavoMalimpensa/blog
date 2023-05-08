@@ -1,0 +1,54 @@
+/*h1{
+  display: flex;
+  /* justify-content: center; 
+}
+
+p{
+  justify-content: center;
+  color: rgb(171, 171, 171)
+}
+
+a{
+  margin-left: 5px;
+  text-decoration: none;
+  color: aliceblue;
+  transition: 0.5s;
+}
+
+a:hover{
+  color: #ffffb3;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-left:25% ;
+  margin-right:25% ;
+}
+
+#flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+#flex:hover{
+  transform: scale(1.1);
+}
+
+#flex:hover>i{
+  color: #ffffb3;
+}
+
+i{
+  scale: 1.1;
+  padding-bottom: 10pt;
+  padding-right: 10pt;
+}
+/*
+  
+  

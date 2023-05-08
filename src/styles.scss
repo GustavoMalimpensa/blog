@@ -1,1 +1,185 @@
-/* You can add global styles to this file, and also import other style files */
+/* Configurações Universais Incluiindo Definições no Body, Section, P e H1, também importações de efeitos, icones e Fontes 
+
+/* Import do Bootstrap Icons 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
+/* Import das fontes Raleway , Bebas Neue e Open Sans 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Raleway&display=swap');
+
+body{ 
+    background-image: url(./assets/img/bg.png );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section{
+  background-image: url(./app/pages/inicio/img/detalhe.png);
+  color: white;
+  margin: 3.75rem;
+  padding: 0.9375rem;
+  border-radius: 0.3125rem;
+}
+
+
+p{
+  font-family: 'Open Sans';
+}
+
+h1{
+  font-family: 'Bebas Neue';
+}
+
+/* Desktops 
+@media (max-width: 1920px) {
+
+  /* Inicio Component 
+
+  #textosmobile{
+    visibility: hidden;
+  }
+
+}
+
+/* Tablets ou telas pequenas/laptops 
+@media (max-width: 1024px ){
+
+  body{
+    background-size: 250%;
+    margin: 1rem;
+    background-repeat: repeat;
+    }
+
+}
+
+/* Celulares  Responsividade 100% 
+@media (max-width: 480px) {
+
+body{
+background-size: 500%;
+margin: 1rem;
+background-repeat: repeat;
+}
+
+section{
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/* Navbar 
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px ;
+
+
+  justify-content: center;
+  align-items: center;
+}
+
+#thalys{
+  padding-left: 40px ;
+}
+
+/* Componente Inicio 
+
+.mobi{
+  display: flex;
+  flex-direction: column;
+
+  position: absolute;
+
+  right: 5pt;
+  top: 100pt;
+
+
+  justify-content: center;
+  align-items: center;
+}
+
+#formatar{
+  visibility: hidden;
+}
+
+#textosmobile{
+  visibility: visible;
+
+  display: flex;
+  flex-direction: column;
+  scale: 0.6;
+
+  position: absolute;
+
+}
+
+/* Componente Sobre 
+
+#pc{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  scale: 0.75;
+}
+
+#pc>img{
+  border-radius: 50px;
+}
+
+#eu{
+  scale: 0.8;
+}
+
+#container{
+  padding-bottom: 15pt;
+}
+
+
+  /* Componente Footer 
+
+#mov{
+  padding-top: 25pt;
+}
+
+/* Componente Projetos 
+
+#grid{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+}
+
+#obj{
+  margin-bottom: 15pt;
+}
+
+}
+
+/* width 
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track 
+::-webkit-scrollbar-track {
+  
+  background: #0b131f;
+  border-radius: 2px;
+}
+
+/* Handle 
+::-webkit-scrollbar-thumb {
+  background: #11223a; 
+  border-radius: 2px;
+}
+
+/* Handle on hover 
+::-webkit-scrollbar-thumb:hover {
+  background: #253245; 
+}

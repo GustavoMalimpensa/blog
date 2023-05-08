@@ -1,0 +1,71 @@
+/* Main 
+main{
+margin-bottom: -30px;
+}
+
+/* Alinhamento da div  e Coloração
+
+#social{
+background-color: #253245;
+border-radius: 50px;
+box-shadow: inset 0px 4px 5px 8px rgba(0, 0, 0, 0.25);
+display: flex;
+justify-content: space-around;
+margin: auto;
+width: 250px;
+}
+
+#mov{
+position: relative;
+top: -70px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* Definição da ul 
+
+ul{
+list-style: none;
+}
+
+i{
+color: aliceblue;
+font-size: 33px;
+}
+
+li{
+transition: 0.5s all;
+}
+
+li:hover{
+transform: scale(1.2);
+color: beige;
+font-weight: bold;
+}
+
+#baixo{
+position: absolute;
+top: 50px;
+}
+
+#contato{
+border-radius: 0px  0px 5px 5px;
+color: #ffffff00;
+border-color: #ffffff00;
+height: 2px;
+background-color: #253245;
+transition: 0.5s;
+}
+
+#contato:hover{
+color: aliceblue;
+height: 30px;
+}
+
+footer{
+display: flex;
+justify-content: center;
+color: aliceblue;
+position: bottom;
+}
