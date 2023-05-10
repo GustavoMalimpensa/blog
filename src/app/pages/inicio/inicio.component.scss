@@ -1,80 +1,76 @@
-/* Configurações dos Textos 
+/* Configurações dos Textos */
 h1{
-    font-family: 'Bebas Neue';
-    font-size: 50px;
-  
-  }
-  
-  h2{
-    font-family: 'Open Sans' ;
-    display: flex;
-    font-size: 25px;
-  }
-  
-  #formatar{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: -250px;
-  }
-  
-  #elementos {
-    position: absolute;
-    right: 80px;
-  }
-  
-  #res{
-    color: #69696930;
-  }
-  
-  /* Detalhes nos Textos Menores 
-  
-  p{
-    margin-left: 5px;
-    transition: 0.5s;
-  }
-  
-  p:hover{
-    transform: scale(1.1);
-  }
-  
-  #ang{
-    color: #FF4747;
-  }
-  
-  #ang:hover{
-    font-weight: bold;
-  }
-  
-  #typ{
-    color: #42FFF4;
-  }
-  
-  #typ:hover{
-    font-weight: bold;
-  }
-  
-  #js{
-    color: #FFE601;
-  }
-  
-  #js:hover{
-    font-weight: bold;
-  }
-  
-  img{
-    position: relative;
-    left: 50px;
-    margin-left: 50px;
-  
-  }
-  
-  section{
-    display: flex;
-    flex-direction: column;
-    height: 400px;
-    border-radius: 50px;
-  }
-  
-  
-  
+  font-family: 'Bebas Neue';
+  font-size: 50px;
+
+}
+
+h2{
+  font-family: 'Open Sans' ;
+  display: flex;
+  font-size: 25px;
+}
+
+#formatar{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -300px;
+}
+
+#elementos {
+  position: absolute;
+  right: 60px;
+}
+
+#res{
+  color: #69696930;
+}
+
+/* Detalhes nos Textos Menores */
+
+p{
+  margin-left: 5px;
+  transition: 0.5s;
+}
+
+p:hover{
+  transform: scale(1.1);
+}
+
+#ang{
+  color: #FF4747;
+}
+
+#ang:hover{
+  font-weight: bold;
+}
+
+#typ{
+  color: #42FFF4;
+}
+
+#typ:hover{
+  font-weight: bold;
+}
+
+#js{
+  color: #FFE601;
+}
+
+#js:hover{
+  font-weight: bold;
+}
+
+img{
+  position: relative;
+  left: 45px;
+  margin-left: 50px;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  height: 330px;
+  border-radius: 50px;
+}

@@ -1,29 +1,30 @@
-/* Main 
+/* Main */
 main{
 margin-bottom: -30px;
 }
 
-/* Alinhamento da div  e Coloração
+/* Alinhamento da div  e Coloração*/
 
 #social{
 background-color: #253245;
 border-radius: 50px;
-box-shadow: inset 0px 4px 5px 8px rgba(0, 0, 0, 0.25);
+box-shadow: inset 0px 1px 5px 8px rgba(0, 0, 0, 0.25);
 display: flex;
 justify-content: space-around;
 margin: auto;
 width: 250px;
+height: 50px;
 }
 
 #mov{
 position: relative;
-top: -70px;
+top: -85px;
 display: flex;
 justify-content: center;
 align-items: center;
 }
 
-/* Definição da ul 
+/* Definição da ul*/ 
 
 ul{
 list-style: none;
@@ -36,6 +37,7 @@ font-size: 33px;
 
 li{
 transition: 0.5s all;
+margin-top: 10px;
 }
 
 li:hover{
@@ -46,21 +48,21 @@ font-weight: bold;
 
 #baixo{
 position: absolute;
-top: 50px;
+top: 53px;
 }
 
 #contato{
 border-radius: 0px  0px 5px 5px;
 color: #ffffff00;
 border-color: #ffffff00;
-height: 2px;
-background-color: #253245;
+height: 15px;
+background-color: #1c2534 ;
 transition: 0.5s;
 }
 
 #contato:hover{
 color: aliceblue;
-height: 30px;
+height: 25px;
 }
 
 footer{
