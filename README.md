@@ -2,7 +2,7 @@
 
 <strong>Click on the Portifolio.</strong>
 <br><br>
-<a href="https://portifolio-ed135.firebaseapp.com/portifolio-angular/">
+<a href="https://portifolio-ed135.firebaseapp.com/">
   <img src="./src/assets/img/Screenshot 2023-07-11 085559.png" style="width: 600px;">
 </a>
 
