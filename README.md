@@ -1,23 +1,16 @@
 # Portifolio
 
-<a href="https://portifolio-ed135.web.app/portifolio-angular/" class="imagem-link">
-  <img src="https://caminho/para/a/imagem.png" alt="Imagem" class="imagem">
+<strong>Click on the Portifolio.</strong>
+<br><br>
+<a href="https://portifolio-ed135.web.app/portifolio-angular/">
+  <img src="./src/assets/img/Screenshot 2023-07-11 085559.png" style="width: 300px;">
 </a>
 
-<style>
-  .imagem {
-    transition: transform 0.3s;
-  }
-
-  .imagem-link:hover .imagem {
-    transform: scale(0.8);
-  }
-</style>
 
 
 #Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
 ## Development server
 
