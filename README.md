@@ -1,23 +1,18 @@
 # Portifolio
 
+<a href="https://portifolio-ed135.web.app/portifolio-angular/" class="imagem-link">
+  <img src="https://caminho/para/a/imagem.png" alt="Imagem" class="imagem">
+</a>
+
 <style>
-  #imagem {
+  .imagem {
     transition: transform 0.3s;
   }
-  #imagem:hover {
-  transform: scale(0.8);
+
+  .imagem-link:hover .imagem {
+    transform: scale(0.8);
   }
 </style>
-<a href="https://portifolio-ed135.web.app/portifolio-angular/">
-  <img id="imagem" src="portifolio/src/assets/img/Screenshot%202023-07-11%20085559.png" alt="Imagem" />
-</a>
-<script>
- var imagem = document.getElementById('imagem');
- imagem.addEventListener('click', function() {
- window.location.href = 'https://portifolio-ed135.web.app/portifolio-angular/';
- });
-</script>
-
 
 
 #Angular
