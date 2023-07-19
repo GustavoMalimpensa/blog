@@ -1,6 +1,5 @@
-import { NgModule } from '@angular/core';
+import { NgModule, OnInit } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './pages/footer/footer.component';
@@ -10,6 +9,7 @@ import { ExpComponent } from './pages/exp/exp.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { SobreComponent } from './pages/sobre/sobre.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @NgModule({
   declarations: [
@@ -24,9 +24,16 @@ import { SobreComponent } from './pages/sobre/sobre.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SlickCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule  {
+  
+}
+
+const firebaseConfig = {
+  // Firebase configuration
+};
