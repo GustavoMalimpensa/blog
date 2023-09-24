@@ -7,8 +7,7 @@ import { FooterComponent } from './pages/footer/footer.component';
 import { NavegacaoComponent } from './pages/navegacao/navegacao.component';
 import { ContatoComponent } from './pages/contato/contato.component';
 import { ExpComponent } from './pages/exp/exp.component';
-import { InicioComponent } from './pages/inicio/inicio.component';
-import { ProjectsComponent } from './pages/projects/projects.component';
+import { InicioComponent } from './pages/inicio/inicio.component'
 import { SobreComponent } from './pages/sobre/sobre.component';
 
 @NgModule({
@@ -19,7 +18,6 @@ import { SobreComponent } from './pages/sobre/sobre.component';
     ContatoComponent,
     ExpComponent,
     InicioComponent,
-    ProjectsComponent,
     SobreComponent
   ],
   imports: [
