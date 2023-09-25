@@ -19,6 +19,7 @@ height: 50px;
 #mov{
 position: relative;
 top: -85px;
+text-align: center;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -73,8 +74,13 @@ position: bottom;
 }
 
 
-@media screen and (max-width: 768px) {
-            
-   
+@media screen and (max-width: 768px) {    
+    #baixo{
+        top: 88px;
+    }
+    
+    footer{
+        text-align: center;
+    }
 }
   

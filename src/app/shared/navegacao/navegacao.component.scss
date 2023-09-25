@@ -11,8 +11,6 @@ ul{
     margin: 10px;
     padding: 0;
     /* overflow: hidden; */
-
-
     background-color: #253245;
     border-radius: 2.0625rem ;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -74,6 +72,15 @@ font-weight: bold;
 
 @media screen and (max-width: 768px) {
 
-   
+    ul{
+        display: inline; /* Torna os elementos <li> elementos inline, ficando um ao lado do outro */
+        margin-right: 20px; 
+        width: 230px;
+    }
+    #nome {
+        display: none;
+    }
+
+    
 }
   

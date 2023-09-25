@@ -11,7 +11,7 @@ h2{
   font-size: 25px;
 }
 
-#formatar{
+.formatar{
   display: flex;
   flex-direction: column;
   position: relative;
@@ -91,11 +91,45 @@ img{
 section{
   display: flex;
   flex-direction: column;
-  height: 330px;
   border-radius: 50px;
 }
 
 @media screen and (max-width: 768px) {
+  
+  #eu {
+    width: 280px;
+    padding-right: 120px;
+    top: 30px;
+  }
+  .formatar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  #elementos {
+    align-items: center;
+    right: 0px;
+    top: 550px;
+  }
 
+  h1{
+   font-size: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+
+  p{
+    font-size: 15px;
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    height: 500px;
+  }
+  
  
 }
